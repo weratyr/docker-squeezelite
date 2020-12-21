@@ -22,8 +22,10 @@ docker create \
 * `-e GROUP_ID` - match GID of group *users* of host system
 * `-e UMASK` - match UMASK of host system
 * `-e PLAYER` - squeezelite player name
-* `-e OUTPUT_DEVICE` - squeezelite output device
+* `-e OUTPUT_DEVICE` - squeezelite output device ASRock-j1900 `plughw:CARD=PCH,DEV=0` 
 * `-e MAC_ADDRESS` - squeezelite mac address
+
+Note: With the command `squeezelite -l` you get all `OUTPUT_DEVICES` listed 
 
 ## Notes
 
